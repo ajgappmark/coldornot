@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS=-I.
-SRC=src/main.c
+SRC=main.c
 SRC2=src/menu.c
 SRC3=src/interface.c
 MAIN=coldornot
