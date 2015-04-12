@@ -7,6 +7,7 @@
 cd src/;
 ./configure;
 make;
+sudo make install;
 mv coldornot ../;
 cd ../;
 

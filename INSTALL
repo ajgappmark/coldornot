@@ -7,7 +7,7 @@ Basic Installation
 ==================
 
 	To install coldornot,
-	just run "./autogen.sh && sudo make install".
+	just run "./autogen.sh".
 
 	This command will compile it, and install the program.
 
