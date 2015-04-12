@@ -19,11 +19,12 @@ HOW TO GET COLDORNOT WORKING?
    2. Extract the archive (tar.gz)
    3. Run the following commands:
 
-          ./configure
-          sudo make
+          ./autogen.sh
           sudo make install
 
    4. That's it!
+
+   See INSTALL for more informations.
 
 
 HOW TO UNINSTALL COLDORNOT?
