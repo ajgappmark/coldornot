@@ -11,8 +11,8 @@
 // Libraries
 #include <stdio.h>
 #include <stdlib.h>
-#include "src/menu.h"
-#include "src/interface.h"
+#include "menu.h"
+#include "interface.h"
 
 int main(int argc, char const *argv[]) {
     

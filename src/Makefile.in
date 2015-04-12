@@ -1,8 +1,8 @@
 CC=gcc
 CFLAGS=-I.
-SRC=main.c
-SRC2=src/menu.c
-SRC3=src/interface.c
+SRC0=main.c
+SRC1=menu.c
+SRC2=interface.c
 MAIN=coldornot
 INSTALL=install
 INSTALL_DIRECTORY=$(INSTALL) -dm755
@@ -11,7 +11,7 @@ INSTALL_PROGRAM=$(INSTALL) -Dpm 0755
 all: $(MAIN)
  
 $(MAIN): $(SRC)
-	$(CC) $(SRC) $(SRC2) $(SRC3) -o $(MAIN)
+	$(CC) $(SRC0) $(SRC1) $(SRC2) -o $(MAIN)
  
 clean:
 	$(RM) *~ $(MAIN)
