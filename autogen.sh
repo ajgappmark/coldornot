@@ -10,4 +10,4 @@ make;
 mv coldornot ../;
 cd ../;
 
-return 0;
+# End
