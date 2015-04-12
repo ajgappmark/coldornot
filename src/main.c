@@ -3,7 +3,7 @@
  *	Coldornot -  A tool to convert temperatures.
  *	Created by Philippe Loctaux
  *
- *	Version 2.0
+ *	Version 2.1
  *	License - GPL v2
  *
  */

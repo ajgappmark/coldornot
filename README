@@ -19,7 +19,7 @@ HOW TO GET COLDORNOT WORKING?
    2. Extract the archive (tar.gz)
    3. Run the following command:
 
-          ./autogen.sh
+          ./install.sh
 
    4. That's it!
 
