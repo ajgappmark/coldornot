@@ -28,9 +28,6 @@ Basic Uninstallation
 ====================
 
 	To uninstall coldornot,
-	just run "sudo make uninstall".
+	just run "cd src && sudo make uninstall".
 
 	This command will remove the binary.
-
-
-

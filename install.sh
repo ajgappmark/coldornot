@@ -1,6 +1,6 @@
 #! /bin/bash
 #
-# autogen.sh
+# install.sh
 # Philippe Loctaux
 #
 
