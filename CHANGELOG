@@ -1,9 +1,10 @@
 	changelog
 
 
-coldornot 2.2-next
+coldornot 2.2
 
    * Better way to build
+   * All the source files are in ./src/
 
 -- Philippe Loctaux <loctauxphilippe@gmail.com> Sat, 2 May 2015
 

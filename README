@@ -19,9 +19,9 @@ HOW TO GET COLDORNOT WORKING?
    2. Extract the archive (tar.gz)
    3. Run the following command:
 
-          ./autogen.sh
-					make
-					sudo make install
+	./autogen.sh
+	make
+	sudo make install
 
    4. That's it!
 
