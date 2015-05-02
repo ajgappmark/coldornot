@@ -154,4 +154,3 @@ int KtFalgo() {
 
 	return tempGave*1.8-459.67;
 }
-

@@ -1,25 +1,23 @@
 CC=gcc
 CFLAGS=-I.
-SRC0=main.c
-SRC1=menu.c
-SRC2=interface.c
+SRC=src/*.c
 MAIN=coldornot
 INSTALL=install
 INSTALL_DIRECTORY=$(INSTALL) -dm755
 INSTALL_PROGRAM=$(INSTALL) -Dpm 0755
- 
+
 all: $(MAIN)
- 
+
 $(MAIN): $(SRC)
-	$(CC) $(SRC0) $(SRC1) $(SRC2) -o $(MAIN)
- 
+	$(CC) $(SRC) -o $(MAIN)
+
 clean:
 	$(RM) *~ $(MAIN)
- 
+	$(RM) -rf *~ autom4te.cache/ config.h.in config.log config.status configure Makefile config.h
+
 install:
 	$(INSTALL_DIRECTORY) $(DESTDIR)/usr/bin
 	$(INSTALL_PROGRAM) $(MAIN) $(DESTDIR)/usr/bin/
- 
+
 uninstall:
 	rm -f $(DESTDIR)/usr/bin/$(MAIN)
-
