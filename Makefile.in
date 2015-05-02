@@ -13,7 +13,6 @@ $(MAIN): $(SRC)
 
 clean:
 	$(RM) *~ $(MAIN)
-	$(RM) -rf *~ autom4te.cache/ config.h.in config.log config.status configure Makefile config.h
 
 install:
 	$(INSTALL_DIRECTORY) $(DESTDIR)/usr/bin
