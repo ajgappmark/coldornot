@@ -1,6 +1,13 @@
 	changelog
 
 
+coldornot 2.2-next
+
+   * Better way to build
+
+-- Philippe Loctaux <loctauxphilippe@gmail.com> Sat, 2 May 2015
+
+
 coldornot 2.1
 
    * New file tree

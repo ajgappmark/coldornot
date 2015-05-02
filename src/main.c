@@ -3,7 +3,7 @@
  *	Coldornot -  A tool to convert temperatures.
  *	Created by Philippe Loctaux
  *
- *	Version 2.1
+ *	Version 2.2-next
  *	License - GPL v2
  *
  */
@@ -15,10 +15,9 @@
 #include "interface.h"
 
 int main(int argc, char const *argv[]) {
-    
+
     printf("Welcome to Coldornot.\n\n");
     menu();
 
     return 0;
 }
-

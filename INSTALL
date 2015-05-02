@@ -7,9 +7,9 @@ Basic Installation
 ==================
 
 	To install coldornot,
-	just run "./install.sh".
+	just run "./autogen.sh && make && sudo make install".
 
-	This command will compile it, and install the program.
+	This command will compile, and install the program.
 
 
 
@@ -21,13 +21,3 @@ Dependencies
 
 	This program should already be installed on your computer,
 	if it's not, just look at your distribution's repositories.
-
-
-
-Basic Uninstallation
-====================
-
-	To uninstall coldornot,
-	just run "cd src && sudo make uninstall".
-
-	This command will remove the binary.
