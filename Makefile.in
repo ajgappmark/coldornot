@@ -12,7 +12,7 @@ $(MAIN): $(SRC)
 	$(CC) $(SRC) -o $(MAIN)
 
 clean:
-	$(RM) *~ $(MAIN)
+	$(RM) *~ $(MAIN) Makefile config.log config.status config.h
 
 install:
 	$(INSTALL_DIRECTORY) $(DESTDIR)/usr/bin
