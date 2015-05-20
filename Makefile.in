@@ -1,3 +1,7 @@
+VERSION = 2
+PATCHLEVEL = 3
+EXTRAVERSION = -next
+
 CC=gcc
 CFLAGS=-I.
 SRC=src/*.c
