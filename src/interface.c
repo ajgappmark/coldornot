@@ -43,6 +43,10 @@ int FtC() {
 	tempFinal = FtCalgo(tempGave);
 
 	printf("%d Fahrenheit equals %d Celsius.\n", tempGave, tempFinal);
+
+	if(tempFinal <= 0) {
+		printf("It's cold!\n");
+	}
 	return 0;
 }
 
