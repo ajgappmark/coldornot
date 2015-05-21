@@ -83,6 +83,19 @@ int CtK() {
 	tempFinal = CtKalgo(tempGave);
 
 	printf("%d Celsius equals %d Kelvin.\n", tempGave, tempFinal);
+
+	if(tempFinal <= 283) {
+		printf("It's cold!\n");
+	}
+
+	if(tempFinal > 283 && 293 >= tempFinal) {
+		printf("It's warm!\n");
+	}
+
+	if(293 < tempFinal) {
+		printf("It's hot!\n");
+	}
+
 	return 0;
 }
 
@@ -124,6 +137,19 @@ int FtK() {
 	tempFinal = FtKalgo(tempGave);
 
 	printf("%d Fahrenheit equals %d Kelvin.\n", tempGave, tempFinal);
+
+	if(tempFinal <= 283) {
+		printf("It's cold!\n");
+	}
+
+	if(tempFinal > 283 && 293 >= tempFinal) {
+		printf("It's warm!\n");
+	}
+
+	if(293 < tempFinal) {
+		printf("It's hot!\n");
+	}
+
 	return 0;
 }
 
@@ -150,7 +176,7 @@ int KtF() {
 	if(68 < tempFinal) {
 		printf("It's hot!\n");
 	}
-	
+
 	return 0;
 }
 
