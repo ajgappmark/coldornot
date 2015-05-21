@@ -44,9 +44,18 @@ int FtC() {
 
 	printf("%d Fahrenheit equals %d Celsius.\n", tempGave, tempFinal);
 
-	if(tempFinal <= 0) {
+	if(tempFinal <= 10) {
 		printf("It's cold!\n");
 	}
+
+	if(tempFinal > 10 && 20 >= tempFinal) {
+		printf("It's warm!\n");
+	}
+
+	if(20 < tempFinal) {
+		printf("It's hot!\n");
+	}
+
 	return 0;
 }
 
