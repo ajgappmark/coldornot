@@ -29,6 +29,19 @@ int CtF() {
 	tempFinal = CtFalgo(tempGave);
 
 	printf("%d Celsius equals %d Fahrenheit.\n", tempGave, tempFinal);
+
+	if(tempFinal <= 50) {
+		printf("It's cold!\n");
+	}
+
+	if(tempFinal > 50 && 68 >= tempFinal) {
+		printf("It's warm!\n");
+	}
+
+	if(68 < tempFinal) {
+		printf("It's hot!\n");
+	}
+
 	return 0;
 }
 
