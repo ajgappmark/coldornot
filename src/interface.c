@@ -30,17 +30,7 @@ int CtF() {
 
 	printf("%d Celsius equals %d Fahrenheit.\n", tempGave, tempFinal);
 
-	if(tempFinal <= 50) {
-		printf("It's cold!\n");
-	}
-
-	if(tempFinal > 50 && 68 >= tempFinal) {
-		printf("It's warm!\n");
-	}
-
-	if(68 < tempFinal) {
-		printf("It's hot!\n");
-	}
+	fahrenheitMessage();
 
 	return 0;
 }
@@ -57,17 +47,7 @@ int FtC() {
 
 	printf("%d Fahrenheit equals %d Celsius.\n", tempGave, tempFinal);
 
-	if(tempFinal <= 10) {
-		printf("It's cold!\n");
-	}
-
-	if(tempFinal > 10 && 20 >= tempFinal) {
-		printf("It's warm!\n");
-	}
-
-	if(20 < tempFinal) {
-		printf("It's hot!\n");
-	}
+	celsiusMessage();
 
 	return 0;
 }
@@ -84,17 +64,7 @@ int CtK() {
 
 	printf("%d Celsius equals %d Kelvin.\n", tempGave, tempFinal);
 
-	if(tempFinal <= 283) {
-		printf("It's cold!\n");
-	}
-
-	if(tempFinal > 283 && 293 >= tempFinal) {
-		printf("It's warm!\n");
-	}
-
-	if(293 < tempFinal) {
-		printf("It's hot!\n");
-	}
+	kelvinMessage();
 
 	return 0;
 }
@@ -111,17 +81,7 @@ int KtC() {
 
 	printf("%d Kelvin equals %d Celsius.\n", tempGave, tempFinal);
 
-	if(tempFinal <= 10) {
-		printf("It's cold!\n");
-	}
-
-	if(tempFinal > 10 && 20 >= tempFinal) {
-		printf("It's warm!\n");
-	}
-
-	if(20 < tempFinal) {
-		printf("It's hot!\n");
-	}
+	celsiusMessage();
 
 	return 0;
 }
@@ -138,17 +98,7 @@ int FtK() {
 
 	printf("%d Fahrenheit equals %d Kelvin.\n", tempGave, tempFinal);
 
-	if(tempFinal <= 283) {
-		printf("It's cold!\n");
-	}
-
-	if(tempFinal > 283 && 293 >= tempFinal) {
-		printf("It's warm!\n");
-	}
-
-	if(293 < tempFinal) {
-		printf("It's hot!\n");
-	}
+	kelvinMessage();
 
 	return 0;
 }
@@ -165,17 +115,7 @@ int KtF() {
 
 	printf("%d Kelvin equals %d Fahrenheit.\n", tempGave, tempFinal);
 
-	if(tempFinal <= 50) {
-		printf("It's cold!\n");
-	}
-
-	if(tempFinal > 50 && 68 >= tempFinal) {
-		printf("It's warm!\n");
-	}
-
-	if(68 < tempFinal) {
-		printf("It's hot!\n");
-	}
+	fahrenheitMessage();
 
 	return 0;
 }
@@ -229,4 +169,58 @@ int FtKalgo() {
 int KtFalgo() {
 
 	return tempGave*1.8-459.67;
+}
+
+
+/* messages */
+
+int celsiusMessage() {
+
+	if(tempFinal <= 10) {
+		printf("It's cold!\n");
+	}
+
+	if(tempFinal > 10 && 20 >= tempFinal) {
+		printf("It's warm!\n");
+	}
+
+	if(20 < tempFinal) {
+		printf("It's hot!\n");
+	}
+
+	return 0;
+}
+
+int fahrenheitMessage() {
+
+	if(tempFinal <= 50) {
+		printf("It's cold!\n");
+	}
+
+	if(tempFinal > 50 && 68 >= tempFinal) {
+		printf("It's warm!\n");
+	}
+
+	if(68 < tempFinal) {
+		printf("It's hot!\n");
+	}
+
+	return 0;
+}
+
+int kelvinMessage() {
+
+	if(tempFinal <= 283) {
+		printf("It's cold!\n");
+	}
+
+	if(tempFinal > 283 && 293 >= tempFinal) {
+		printf("It's warm!\n");
+	}
+
+	if(293 < tempFinal) {
+		printf("It's hot!\n");
+	}
+
+	return 0;
 }

@@ -24,3 +24,9 @@ int FtCalgo();
 int KtCalgo();
 int FtKalgo();
 int KtFalgo();
+
+
+// messages
+int celsiusMessage();
+int fahrenheitMessage();
+int kelvinMessage();
