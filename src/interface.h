@@ -18,7 +18,7 @@ int KtF();
 int quit();
 
 
-/*** Algorithms ***/
+// algos
 int CtFalgo();
 int FtCalgo();
 int KtCalgo();

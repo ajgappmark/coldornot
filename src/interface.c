@@ -193,9 +193,7 @@ int quit() {
 }
 
 
-
-/*** Algorithms ***/
-
+/* algos */
 
 // Celsius to Fahrenheit
 int CtFalgo() {
