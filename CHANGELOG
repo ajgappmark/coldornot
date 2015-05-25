@@ -1,6 +1,13 @@
 	changelog
 
 
+coldornot 2.4
+
+   * Added messages if it's cold or not
+
+-- Philippe Loctaux <loctauxphilippe@gmail.com> Mon, 25 May 2015
+
+
 coldornot 2.3
 
    * Better way to build
