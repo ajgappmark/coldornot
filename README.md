@@ -1,17 +1,17 @@
-	coldornot
+#coldornot [![Build Status](https://travis-ci.org/loctauxphilippe/coldornot.svg?branch=split)](https://travis-ci.org/loctauxphilippe/coldornot)
 
 
-WHAT IS COLDORNOT?
+##What is Coldornot?
 
    Coldornot is a simple tool to convert temperatures.
 
 
-UNDER WHICH LICENSE COLDORNOT IS RELEASED?
+##Under which license Coldornot is released?
 
    Coldornot is licensed under the GNU Public License version 2.
 
 
-HOW TO GET COLDORNOT WORKING?
+##How to get Coldornot working?
 
    It is actually very simple:
 
