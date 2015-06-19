@@ -1,4 +1,7 @@
-#coldornot [![Build Status](https://travis-ci.org/loctauxphilippe/coldornot.svg?branch=split)](https://travis-ci.org/loctauxphilippe/coldornot)
+#coldornot
+#
+[![Build Status](https://travis-ci.org/loctauxphilippe/coldornot.svg?branch=split)](https://travis-ci.org/loctauxphilippe/coldornot)
+[![GitHub license](https://img.shields.io/badge/license-GPLv2-blue.svg)](https://raw.githubusercontent.com/loctauxphilippe/coldornot/master/COPYING)
 
 
 ##What is Coldornot?
